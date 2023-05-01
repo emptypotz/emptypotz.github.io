@@ -1,0 +1,324 @@
+@font-face {
+    font-family: Candle;
+    src: url(Candle.ttf);
+}
+
+@font-face {
+    font-family: Baba;
+    src: url(Babapro-Ea4rr.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+
+body
+{
+    background-color: #191a1b;
+    margin: 0 0 0 0;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.header
+{
+    background-color: #0d0d0e;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    filter: drop-shadow(0px 5px 5px);
+    
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: -10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .main-list
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.header .main-list li
+{
+    display: inline;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Candle";
+    padding: 15px 35px 15px 35px;
+    text-anchor: middle;
+    cursor: pointer;
+
+    transition: all ease-in-out .5s;
+}
+
+.header .main-list li:hover
+{
+    color: #46b5ff;
+    font-size: 30px;
+    padding: 9px 29px 9px 29px;
+}
+
+.logo-title
+{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 200px;
+    
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 132px;
+    font-family: "Baba";
+    padding: 15px 35px 0px 35px;
+    text-anchor: middle;
+
+    transition: all ease-in-out .5s;
+}
+
+
+.logo-description
+{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 200px;
+    
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Baba";
+    padding: 0px 35px 0px 35px;
+    text-anchor: middle;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content
+{
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    position: relative;
+    top: 600px;
+    height: 500px;
+}
+
+.skills-content .skills-title
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 108px;
+    height: max-content;
+    font-family: "Baba";
+    padding: 0px 35px 0px 35px;
+    text-anchor: middle;
+
+    position: relative;
+    top: -50px;
+
+    transition: all ease-in-out .5s;
+}
+
+
+.skills-content .roblox-section
+{
+    display: flex;
+    
+    flex-direction: column;
+
+    position: relative;
+    top: 200px;
+    left: -500px;
+    height: max-content;
+    width: max-content;
+}
+.skills-content .roblox-section .roblox-header
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 42px;
+    font-family: "Baba";
+    text-anchor: middle;
+
+    position: relative;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .roblox-section p
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .roblox-section img
+{
+    position: relative;
+    top: -260px;
+    left: 550px;
+    display: flex;
+    width: 70px;
+    z-index: -5;
+}
+
+.skills-content .python-section
+{
+    display: flex;
+    
+    flex-direction: column;
+
+    position: relative;
+    top: 600px;
+    left: -1300px;
+    height: max-content;
+    width: max-content;
+}
+.skills-content .python-section .python-header
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 42px;
+    font-family: "Baba";
+    text-anchor: middle;
+
+    position: relative;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .python-section p
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .python-section img
+{
+    position: relative;
+    top: -190px;
+    left: 650px;
+    display: flex;
+    width: 70px;
+    z-index: -5;
+}
+
+.skills-content .ui-section
+{
+    display: flex;
+    
+    flex-direction: column;
+
+    position: relative;
+    top: 900px;
+    left: -2025px;
+    height: max-content;
+    width: max-content;
+}
+.skills-content .ui-section .ui-header
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 42px;
+    font-family: "Baba";
+    text-anchor: middle;
+
+    position: relative;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .ui-section p
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+
+    transition: all ease-in-out .5s;
+}
+
+.skills-content .ui-section img
+{
+    position: relative;
+    top: -275px;
+    left: 300px;
+    display: flex;
+    width: 70px;
+    z-index: -5;
+}
+
+.contact-list
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1700px;
+}
+
+.contact-list ul
+{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+
+.contact-list ul li
+{
+    display: inline;
+    width: 100px;
+    padding: 55px 55px 55px 55px;
+}
+
+
+.contact-list ul li a img
+{
+    display: inline;
+    width: 50px;
+}
